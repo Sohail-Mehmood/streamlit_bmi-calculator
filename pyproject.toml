@@ -1,9 +1,17 @@
 [project]
-name = "bmi-calculator"
+name = "streamlit-bmi1"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "streamlit>=1.43.2",
+authors = [
+    { name = "Sohail-Mehmood", email = "khan.sb1210@gmail.com" }
 ]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+streamlit-bmi1 = "streamlit_bmi1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
